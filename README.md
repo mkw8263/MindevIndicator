@@ -23,4 +23,10 @@ Step 2. Add the dependency
 	dependencies {
 	        implementation 'com.github.mkw8263:MindevIndicator:0.01'
 	}
-Share this release:
+
+Step 3. Apply Code
+~~~kotlin
+	mindev_indicator.run {
+            createDot(5, R.drawable.circle_off, R.drawable.circle,3)
+            selectDot(4)
+        }
