@@ -1,0 +1,2 @@
+include ':app', ':mindev-indicator'
+rootProject.name='MindevIndicator'
